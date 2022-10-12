@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(cblol.webp);
+    background-size: 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contato_box {
+    padding: 50px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.contato_box h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.contato_box input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+.contato_box input:hover {
+    background-color: #444;
+}
+
+.input_box {
+    margin-bottom: 10px;
+}
+
+.contato_box button {
+    height: 50px;
+    width: 100%;
+    color: rgb(255, 253, 253);
+    background-color: #340edd;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.contato_box button:hover {
+    background-color:   #000005b2;
+    cursor: pointer;
+}
+
+.input_box1 {
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
